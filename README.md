@@ -4,9 +4,17 @@ Color scheme for vim for the [Paisanos](https://www.paisanoscreando.com) team.
 
 ## Installation
 
-1. Install pathogen, Vundle or NeoBundle package manager.
-2. Use this repository as submodule or package.
-3. Add following line to your `~/.vimrc` file:
+### vim-plug:
+
+    Plug 'exos/vim-paisanos-scheme'
+
+### Vundle:
+
+    Plug 'exos/vim-paisanos-screen'
+
+## Use
+
+Add following line to your `~/.vimrc`, or `init.vim` file:
 
 ```vim
 colorscheme paisanos
@@ -20,6 +28,12 @@ colorscheme paisanos
 
 For best experience use with [Space
 Mono](https://fonts.google.com/specimen/Space+Mono) font.
+
+### Use it
+
+Add to your config:
+
+    set gfn=Space\ Mono:style=regular
 
 ## License
 
